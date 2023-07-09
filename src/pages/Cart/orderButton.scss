@@ -1,0 +1,53 @@
+.productCartCentr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderButton{
+    width: 200px;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.orderForm{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.291);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .closeOrderBg{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+    }
+}
+.orderFormWraper{
+    z-index: 999;
+    border: 1px solid rgba(7, 7, 7, 0.561);
+    background-color: rgb(71, 118, 118);
+    padding: 8px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .closeForm{
+        cursor: pointer;
+        align-self: end;
+        margin-bottom: 150px;
+        color: white;
+        
+    }
+    .btnForm{
+        background-color: rgb(0, 255, 0);
+        margin-top: 100px;
+    }
+    
+}
+.orderInput{
+    height: 24px;
+    width: 300px;
+}

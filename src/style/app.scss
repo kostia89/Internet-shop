@@ -1,0 +1,26 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    .btnModalBloc{
+        display: flex;
+        gap: 40px;
+        .btnMod{
+            background-color: rgb(189, 41, 0);
+            border: none;
+            min-width: 50px;
+            padding: 15px 30px;
+            border-radius: 5px;
+            color: white;
+        }
+        .btnMod2{
+            background-color: rgba(0, 189, 25, 0.611);
+            border: none;
+            min-width: 50px;
+            padding: 15px 30px;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+    
+}

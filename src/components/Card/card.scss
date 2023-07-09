@@ -1,0 +1,34 @@
+.styleGrid {
+  margin: 0 auto;
+  width: 240px;
+  // box-sizing: border-box;
+  padding: 10px;
+  // border: 1px solid rgba(0, 0, 0, 0.724);
+  box-shadow: 2px 2px 2px 2px #607d8b;
+  .cardFoto {
+    width: 100%;
+  }
+  .coloredStar {
+    color: rgb(211, 194, 0);
+    fill: rgb(211, 194, 0);
+  }
+}
+
+.styleList {
+  margin: 0 auto;
+  width: 100%;
+  // box-sizing: border-box;
+  padding: 10px;
+  // border: 1px solid rgba(0, 0, 0, 0.724);
+  box-shadow: 2px 2px 2px 2px #607d8b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .cardFoto {
+    width: 80px;
+  }
+  .coloredStar {
+    color: rgb(211, 194, 0);
+    fill: rgb(211, 194, 0);
+  }
+}

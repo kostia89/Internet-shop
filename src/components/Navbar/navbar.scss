@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    .caunter-wraper{
+        position: relative;
+        width: 50px;
+        .caunter{
+            position: relative;
+            bottom: 15px;
+            left: 25px;
+            
+        }
+        
+    }
+    .active-link{
+        color: gold
+    }
+}
